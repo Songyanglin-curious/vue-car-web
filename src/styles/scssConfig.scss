@@ -1,0 +1,18 @@
+$main-color: #34393f;
+$blue-color: #00a3ff;
+
+@mixin webkit ($type,$value) {
+    #{$type}: $value;
+    -webkit-#{$type}: $value;
+    -moz-#{$type}: $value;
+    -ms-#{$type}: $value;
+    -o-#{$type}:$value;
+}
+
+@mixin webkitA($type,$value) {
+   #{$type}: #{$value};
+   #{$type}: -webkit-#{$value};
+   #{$type}: -moz-#{$value};
+   #{$type}: -ms-#{$value};
+   #{$type}: -o-#{$value}
+}

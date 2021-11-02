@@ -1,0 +1,79 @@
+{
+  "id": "2896300",
+  "name": "vue-car",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "6535290",
+      "name": "安全设置",
+      "font_class": "anquanshezhi1",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "845779",
+      "name": "钱",
+      "font_class": "qian4",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1243396",
+      "name": "方向盘",
+      "font_class": "fangxiangpan",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "2535601",
+      "name": "实名认证",
+      "font_class": "shimingrenzheng",
+      "unicode": "e635",
+      "unicode_decimal": 58933
+    },
+    {
+      "icon_id": "6519690",
+      "name": "帮助中心",
+      "font_class": "bangzhuzhongxin",
+      "unicode": "e6bb",
+      "unicode_decimal": 59067
+    },
+    {
+      "icon_id": "21500989",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
+      "icon_id": "902044",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "2571127",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "2675116",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "4550491",
+      "name": "问号",
+      "font_class": "wenhao",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}

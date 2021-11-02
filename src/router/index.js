@@ -1,24 +1,40 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
-  },
-  {
-    path: "/about",
-    name: "About",
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
+    name: "Index",
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue"),
+    import( "../views/index/index.vue"),
+    children: [
+      {
+        path:"/user",
+        name:"User",
+        component: () =>import("../views/user/index.vue")
+      },
+      {
+        path:"/safe",
+        name:"Safe",
+        component: () =>import("../views/safe/index.vue")
+      },
+      {
+        path:"/changePassword",
+        name:"ChangePassword",
+        component: () =>import("../views/password/index.vue")
+      },
+      {
+        path:"/setFundPassword",
+        name:"SetFundPassword",
+        component: () =>import("../views/setFundPassword/index.vue")
+      },
+    ]
   },
+
+  
 ];
 
 const router = new VueRouter({

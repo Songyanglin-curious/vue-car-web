@@ -1,0 +1,51 @@
+.change-cars {
+    margin: 0 16px;
+    background-color: $main-color;
+    color: #fff;
+    padding: 0 66px;
+    height: 84px;
+    border-radius: 42px;
+    font-size: 26px;
+    line-height: 84px;
+    cursor:pointer;
+  }
+
+.link-group{
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  a{
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0 30px;
+    font-size: 15px;
+    color: #818282;
+    height: 64px;
+    line-height: 64px;
+    border-bottom: solid 1px #3e4349;
+    &::after{
+      content: '';
+      position: absolute;
+      right: 30px;
+      top: 50%;
+      // margin-top: -5px;
+      width: 7px;
+      height: 7px;
+      border-top: solid 2px #3e4349;
+      border-right: solid 2px #3e4349;
+      @include webkit(transform,rotate(45deg))
+    }
+    &:hover{
+      color: #fff;
+      border-color: #818282;
+      &::after{
+        border-color: #818282;
+      }
+    }
+  }
+}
+.padding-l-r-30{
+  padding: 0 30px;
+}
